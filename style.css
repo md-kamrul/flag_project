@@ -1,0 +1,63 @@
+
+/* main body style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* custom texts style */
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+
+.container h2{
+    text-align: center;
+}
+
+/* custom flag style */
+.flag_container{
+    height: 100vh;
+    width: 100%;
+    background-color:bisque;
+}
+
+.flag_green_container{
+    height: 180px;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    top: 50%; 
+    left: 50%;
+    transform:translate(-50%, -70%);
+}
+
+.flag_red_container{
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flag_stand_container{
+    height: 320px;
+    width: 17px;
+    background-color: black;
+    position: absolute;
+    top: -10%;
+    border-top-right-radius: 10px;
+}
+
+.flag_footer{
+    height: 30px;
+    width: 45px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+    left: -70%;
+}
